@@ -1,16 +1,55 @@
-# React + Vite
+# Omni-Product Customer Churn Analytics Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, high-fidelity customer churn analytics dashboard designed for **Your Choice Retail Brand**. The application provides interactive sensitivity analysis and risk profiling for 157 unique customers across multiple product segments (Gents, Ladies, Kids) and categories (Formal, Casual, Athletic, Accessories).
 
-Currently, two official plugins are available:
+### 🚀 Live Website
+Access the live deployment (no password or tunnels required):  
+👉 **[https://churn-gents-formal-all-products.surge.sh](https://churn-gents-formal-all-products.surge.sh)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Interactive Churn Sensitivity Slider:** Adjust the churn threshold between 30 to 90 days of customer inactivity to see overall rates, counts, and active vs. churned charts recalculate instantly.
+- **Dynamic Segment & Category Breakdown:** Visualization charts showing customer distribution and churn status by Acquisition Channel, Zonal Market, Product Segment, and Category.
+- **Advanced Customer Registry Table:** Filter registry listings by multiple dimensions (channel, zone, segment, category, status, returns), search by customer name, and sort columns by lifetime spend, order count, and recency.
+- **Cohort Retention Matrix:** MoM cohort retention matrix heatmap indicating percentage return rates for newly acquired customer cohorts.
+- **Vibrant Dark Aesthetics:** Built with a modern dark slate palette, glassmorphism cards, HSL tailwind accents, and clean *Outfit* typography.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- **Core Framework:** React 19 + Vite 8
+- **Styling:** Tailwind CSS v4 (native Vite integration)
+- **Charts:** Chart.js
+- **Icons:** Lucide React
+
+---
+
+## Local Development Setup
+
+To run this project locally, follow these steps:
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Leslythomasmathew/churn-analytics.git
+cd churn-analytics
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Run development server
+```bash
+npm run dev
+```
+Open **[http://localhost:5173/](http://localhost:5173/)** in your browser.
+
+### 4. Build for production
+```bash
+npm run build
+```
+Production-ready files will be generated in the `dist` folder.
