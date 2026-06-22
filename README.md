@@ -27,29 +27,3 @@ Access the live deployment (no password or tunnels required):
 
 ---
 
-## Local Development Setup
-
-To run this project locally, follow these steps:
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/Leslythomasmathew/churn-analytics.git
-cd churn-analytics
-```
-
-### 2. Install dependencies
-```bash
-npm install
-```
-
-### 3. Run development server
-```bash
-npm run dev
-```
-Open **[http://localhost:5173/](http://localhost:5173/)** in your browser.
-
-### 4. Build for production
-```bash
-npm run build
-```
-Production-ready files will be generated in the `dist` folder.
