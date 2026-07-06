@@ -438,7 +438,7 @@ function App() {
         <div>
           <div className="flex items-center gap-2">
             <span className="px-2.5 py-1 text-xs font-semibold rounded-full bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">Analytical App</span>
-            <span className="text-slate-400 text-sm">YTD 2026</span>
+            <span className="text-slate-400 text-sm">2026</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mt-1 bg-gradient-to-r from-cyan-400 via-teal-400 to-purple-500 bg-clip-text text-transparent">
             Omni-Product Churn Analytics
@@ -451,7 +451,7 @@ function App() {
             <span className="px-3 py-1 bg-slate-800 text-xs font-semibold rounded-lg text-slate-200">{maxDateStr}</span>
           </div>
           <a 
-            href="file:///C:/Users/lesly/Downloads/Your_Choice_KPI_Report_YTD_all_products.csv"
+            href="file:///C:/Users/lesly/Downloads/Your_Choice_KPI_Report_all_products.csv"
             className="text-xs text-cyan-400 hover:text-cyan-300 font-medium underline flex items-center gap-1 self-end"
           >
             Download Exported CSV
