@@ -441,7 +441,7 @@ function App() {
             <span className="text-slate-400 text-sm">2026</span>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold mt-1 bg-gradient-to-r from-cyan-400 via-teal-400 to-purple-500 bg-clip-text text-transparent">
-            Omni-Product Churn Analytics
+            Customer Churn Analytics
           </h1>
           <p className="text-slate-400 mt-1">Interactive churn analysis for all product lines (Gents, Ladies, Kids) & categories.</p>
         </div>

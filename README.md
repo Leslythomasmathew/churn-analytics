@@ -1,4 +1,4 @@
-# Omni-Product Customer Churn Analytics Dashboard
+# Customer Churn Analytics Dashboard
 
 A modern, high-fidelity customer churn analytics dashboard designed for **Your Choice Retail Brand**. The application provides interactive sensitivity analysis and risk profiling for 157 unique customers across multiple product segments (Gents, Ladies, Kids) and categories (Formal, Casual, Athletic, Accessories).
 
